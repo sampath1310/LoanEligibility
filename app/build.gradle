@@ -35,6 +35,5 @@ dependencies {
     compile 'com.google.guava:guava:16.0.1'
     compile 'joda-time:joda-time:2.9.9'
     testCompile 'junit:junit:4.12'
-
     compile files('libs/pmml-evaluator-1.2.2.jar')
 }
