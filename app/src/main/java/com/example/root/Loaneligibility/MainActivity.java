@@ -7,7 +7,8 @@ import android.os.Bundle;
 
 import com.example.root.loaneligible.R;
 
-public class Splash extends AppCompatActivity {
+
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +19,7 @@ public class Splash extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i = new Intent(Splash.this, Form.class);
+                Intent i = new Intent(MainActivity.this, Form.class);
                 startActivity(i);
 
                 finish();
