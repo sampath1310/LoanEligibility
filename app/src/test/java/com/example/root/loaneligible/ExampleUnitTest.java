@@ -1,4 +1,4 @@
-package com.example.root.loaneligibility;
+package com.example.root.loaneligible;
 
 import org.junit.Test;
 
