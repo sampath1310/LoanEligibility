@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.root.loaneligible.com.example.root.Loaneligibility.Form">
+    android:background="@drawable/gradient"
+    tools:context="com.example.root.Loaneligibility.Form">
 
   <!--  <fragment
         android:layout_width="wrap_content"
