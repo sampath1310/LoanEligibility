@@ -56,7 +56,16 @@ public class Final extends AppCompatActivity {
         @Override
         protected void onPostExecute(String result) {
             super.onPostExecute(result);
-            tv.setText(processedResult);
+            String sss=new String();
+            for (int i=69;i<74;i++){
+            sss=sss+result.charAt(i);
+            }
+            if(Double.valueOf(sss)>0.500) {
+
+                tv.setText("Your Are Eligible For Loan with probiblity of "+sss);
+            }else {
+                tv.setText("You are not eligible for loan");
+            }
         }
 
 

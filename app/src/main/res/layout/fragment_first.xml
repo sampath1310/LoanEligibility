@@ -3,16 +3,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/first"
-    tools:context="com.example.root.loaneligible.com.example.root.Loaneligibility.FirstFragment">
-
-    <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+    tools:context="com.example.root.Loaneligibility.FirstFragment">
 
 
 
     <LinearLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="?attr/actionBarSize"
         android:orientation="vertical"
@@ -21,7 +17,6 @@
         android:paddingTop="60dp">
 
     <android.support.design.widget.TextInputLayout
-        android:id="@+id/input_layout_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -31,13 +26,51 @@
             android:layout_height="wrap_content"
             android:maxLines="1"
             android:hint="ApplicantIncome" />
+
+    </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:hint="Co Applicant Income" />
+
+
+    </android.support.design.widget.TextInputLayout><android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:hint="Loan Amount" />
+
+    </android.support.design.widget.TextInputLayout><android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:hint="Loan Amount Term" />
+
+    </android.support.design.widget.TextInputLayout>
+
         <Button
+            android:layout_gravity="center"
+            android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/button"
-            android:hint="proceed"
-           />
-    </android.support.design.widget.TextInputLayout>
+            android:hint="proceed" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Note:All the details should be in months format"/>
     </LinearLayout>
-    </android.support.design.widget.CoordinatorLayout>
+
 </FrameLayout>
